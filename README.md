@@ -12,7 +12,7 @@
 
 The project is built based on the requirement in Fend Udacity course. It is a Frogger Game Clone which the player try to reach the water without colliding any moving bugs. The player can move up, down, left and right to avoid the bugs. The player have total five characters to choose and three lives to finish the game. The game have three level of difficulty which are easy, medium and hard. On each level, the speed of moving bugs will change in order to prevent the player reach the water. When the player collides any of the bugs, he/she loses one live and begin again at the initial position. As the player reaches the water, he/she earns one point. The game will end as the player uses all his lives. 
 
-![snippet](imgages/snippet.png)
+![snippet](images/snippet.png)
 
 ## Installation
 
