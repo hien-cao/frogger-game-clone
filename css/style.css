@@ -1,0 +1,144 @@
+/*
+* style.css
+*/
+
+body {
+	text-align: center;
+	background-image: url('../images/background.png');
+}
+
+h1 {
+  font-family: Jua, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+#score-panel {
+  text-align: left;
+  width: 505px;
+  margin: auto;
+}
+
+#score-panel #lives {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#score-panel #lives li {
+  list-style: none;
+  display: inline-block;
+}
+
+#score-panel #lives img {
+  width: 30px;
+  align-items: bottom;
+}
+
+#score-panel #point {
+  font-family: monospace;
+  font-size: 1.4rem;
+  font-weight: 900;
+  float: right;
+  margin-top: 30px;
+}
+
+#info {
+  text-align: left;
+  margin: auto;
+  width: 505px;
+  font-family: monospace;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+#info #character {
+  display: inline-block;
+}
+#info #level {
+  float: right;
+}
+.instruction {
+  width: 505px;
+  margin: auto;
+}
+
+canvas {
+  margin-top: -50px;
+}
+
+/*
+* Styles for the Modal
+*/
+.winner-message {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.winner-message .stars {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+.winner-message .stars li {
+  list-style: none;
+  display: inline-block;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-content {
+  margin: 70px auto;
+  padding: 20px;
+  background-image: url('../images/background.png');
+  border-radius: 5px;
+  width: 85%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.modal-content img {
+  height: 10rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.modal-content h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.show {
+  visibility: visible;
+  opacity: 100;
+}
+
+.restart {
+  margin: 0 8px 0 1rem;
+}
