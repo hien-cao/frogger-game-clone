@@ -1,12 +1,16 @@
 # Frogger Game Clone
 
+![Part of the Udacity Front-End Web Development Nanodegree](https://img.shields.io/badge/Udacity-Front--End%20Web%20Developer%20Nanodegree-02b3e4.svg)
+
 ## Table of Contents
 
-* [About](#About)
-* [Instruction for Installation](#Installtion)
-* [How to Play](#How)
-* [How the game working](#How)
-* [How the game built](#How)
+- [Frogger Game Clone](#frogger-game-clone)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Installation](#installation)
+  - [How to Play](#how-to-play)
+  - [How the game working](#how-the-game-working)
+  - [How the game built](#how-the-game-built)
 
 ## About
 
